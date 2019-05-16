@@ -116,7 +116,7 @@ body {
   border-radius: 10px;
 }
 .section button {
-  width: 200px;
+  width: 400px;
   border: 1px solid #931d25;
   border-radius: 10px;
 }
@@ -132,9 +132,9 @@ body {
   padding-bottom: 10px;
   font-weight: bold;
 }
+.section .box-hidden {
+  display: none;
+}
 img {
   max-width: 500px;
-}
-.box-hidden {
-  display: none;
 }
