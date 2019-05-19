@@ -114,7 +114,15 @@ body {
   border: 1px solid #931d25;
   box-shadow: 1px 1px 5px #931d25;
   border-radius: 10px;
-  overflow: hidden;
+}
+.section button {
+  width: 400px;
+  border: 1px solid #931d25;
+  border-radius: 10px;
+}
+.section button:hover {
+  background-color: cadetblue;
+  transition-duration: 0.5s;
 }
 .section .box {
   padding: 40px;
@@ -123,4 +131,10 @@ body {
   font-size: 24px;
   padding-bottom: 10px;
   font-weight: bold;
+}
+.section .box-hidden {
+  display: none;
+}
+img {
+  max-width: 500px;
 }

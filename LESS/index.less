@@ -38,7 +38,15 @@ body {
   border: 1px solid @lambda-red;
   box-shadow: 1px 1px 5px @lambda-red;
   border-radius: 10px;
-  overflow: hidden;
+   button{
+    width: 400px;
+    border: 1px solid @lambda-red;
+  border-radius: 10px;
+  &:hover {
+    background-color: cadetblue;
+    transition-duration: 0.5s;
+  }
+  }
   .box {
     padding: 40px;
     .box-title {
@@ -47,7 +55,17 @@ body {
       font-weight: bold;
     }
   }
+  .box-hidden {
+    display: none;
+    }
 }
+
+img{
+  max-width: 500px;
+}
+
+
+
 
 
 
